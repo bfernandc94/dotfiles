@@ -68,5 +68,10 @@ export LC_ALL=en_US.UTF-8
 export BUNDLER_EDITOR=code
 export EDITOR=code
 
+
 # Set ipdb as the default Python debugger
 export PYTHONBREAKPOINT=ipdb.set_trace
+export PYTHONPATH="/Users/samarafernandez/code/bfernandc94/04-Decision-Science/01-Project-Setup/data-context-and-setup:$PYTHONPATH"
+export GOOGLE_APPLICATION_CREDENTIALS="/Users/samarafernandez/Desktop/Le-Wagon_key/axiomatic-jet-473416-d9-f43a8a00b2a9.json"
+export GOOGLE_APPLICATION_CREDENTIALS="/Users/samarafernandez/Desktop/Le-Wagon_key/axiomatic-jet-473416-d9-f43a8a00b2a9.json"
+eval "$(direnv hook zsh)"
